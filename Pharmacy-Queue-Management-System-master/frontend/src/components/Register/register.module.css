@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "@fontsource/cinzel/index.css";
+
+body {
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color: #101828;
+}
+
+.loginWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.loginContainer {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  min-height: 600px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.leftSide {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #0580f3, #6dd5fa);
+  padding: 2rem;
+  color: white;
+}
+
+.leftImage {
+  width: 220px;
+  margin-bottom: 1rem;
+}
+
+.rightImage {
+  width: 220px;
+}
+
+.rightSide {
+  flex: 1;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.backButton {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: transparent;
+  color: #0580f3;
+  border: none;
+  padding: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.backButton:hover {
+  scale: 1.05;
+}
+
+.registerHeading {
+  font-family: "Cinzel", serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #101828;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.formContainer {
+  width: 100%;
+}
+
+.smallerText {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.textBoxSmall {
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.textBoxSmall:focus {
+  border-color: #0580f3;
+  box-shadow: 0 0 0 2px rgba(5, 128, 243, 0.2);
+  outline: none;
+}
+
+.customButton {
+  background-color: #0580f3;
+  margin-top: 1.5rem;
+  border: none;
+  width: 100%;
+  padding: 0.75rem;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.customButton:hover {
+  background-color: #0468d1;
+  box-shadow: 0 4px 12px rgba(5, 128, 243, 0.2);
+}
+
+.notificationContainer {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}

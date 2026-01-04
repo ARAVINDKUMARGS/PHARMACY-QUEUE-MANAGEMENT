@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "@fontsource/cinzel/index.css";
+
+body {
+  background-color: #101828;
+  font-family: 'Poppins', sans-serif;
+}
+
+.containerr {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.topDiv {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #e2e8f0;
+  position: relative;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 1.75rem;
+  font-family: "Cinzel", serif;
+  color: #101828;
+}
+
+.titleUnWrap {
+  margin-right: 0.5rem;
+}
+
+.titleWrap {
+  background-color: #0580f3;
+  color: white;
+  padding: 0.25rem 1rem;
+  border-radius: 20px;
+}
+
+.logoutBtn {
+  position: absolute;
+  right: 2rem;
+}
+
+.logoutBtn button {
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  color: #101828;
+  border: 1px solid #d0d5dd;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.logoutBtn button:hover {
+  background-color: #ef4444;
+  border-color: #ef4444;
+  color: white;
+}
+
+.secondDiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.genBox {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.boxTop {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #101828;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.boxDes {
+  margin-bottom: 2rem;
+  font-weight: 400;
+  color: #4a5568;
+  max-width: 350px;
+}
+
+.inputArea {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.inputData {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  max-width: 320px;
+  transition: all 0.2s ease;
+}
+
+.inputData:focus-within {
+  border-color: #0580f3;
+  box-shadow: 0 0 0 2px rgba(5, 128, 243, 0.2);
+}
+
+.inputBox {
+  display: contents;
+}
+
+.inputBox input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+  background: transparent;
+  color: #101828;
+}
+
+.inputBox input::placeholder {
+  color: #9ca3af;
+}
+
+.printBtn {
+  width: 100%;
+  max-width: 320px;
+}
+
+.printBtn button {
+  color: white;
+  background-color: #0580f3;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.printBtn button:hover {
+  background-color: #0468d1;
+  box-shadow: 0 4px 12px rgba(5, 128, 243, 0.2);
+}
+
+.foot {
+  text-align: center;
+  font-weight: 500;
+  padding: 1.5rem;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
